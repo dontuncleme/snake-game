@@ -1,0 +1,13 @@
+.score {
+    font-size: 34px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+/* <= 680 */
+@media (max-width: 680px) {
+    .score {
+        font-size: 24px;
+    }
+}

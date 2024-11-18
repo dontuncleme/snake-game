@@ -1,0 +1,28 @@
+.button {
+    display: inline-block;
+    font-size: 46px;
+    padding: 27px 13px 15px 16px;
+    line-height: 1;
+    border-radius: 8px;
+    cursor: pointer;
+    appearance: none;
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    transition:
+        color 0.08s ease-out,
+        background-color 0.08s ease-out;
+}
+
+.button:hover {
+    background-color: var(--text-color);
+    color: var(--bg);
+}
+
+/* <= 680 */
+@media (max-width: 680px) {
+    .button {
+        font-size: 36px;
+        padding: 24px 12px 15px 16px;
+    }
+}

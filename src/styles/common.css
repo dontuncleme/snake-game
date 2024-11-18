@@ -1,0 +1,30 @@
+@font-face {
+    font-family: "Equilibrium";
+    font-weight: normal;
+    font-style: normal;
+    src:
+        url("./../assets/fonts/equilibrium.woff2") format("woff2"),
+        url("./../assets/fonts/equilibrium.woff") format("woff");
+}
+
+body {
+    font:
+        17px / 1.25 "Equilibrium",
+        monospace;
+    text-transform: uppercase;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: var(--text-color);
+    background-color: var(--bg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 320px;
+    min-height: 100vh;
+}
+
+@supports (height: 100dvh) {
+    body {
+        min-height: 100dvh;
+    }
+}

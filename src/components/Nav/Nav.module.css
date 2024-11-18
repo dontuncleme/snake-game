@@ -1,0 +1,44 @@
+.nav {
+    display: flex;
+    text-align: center;
+    gap: 16px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+}
+
+.title,
+.subtitle {
+    font-weight: normal;
+    line-height: 1;
+    text-transform: lowercase;
+}
+
+.title {
+    font-size: 144px;
+}
+
+.subtitle {
+    font-size: 112px;
+}
+
+/* <= 680 */
+@media (max-width: 680px) {
+    .nav {
+        gap: 8px;
+    }
+
+    .title {
+        font-size: 96px;
+    }
+
+    .subtitle {
+        font-size: 72px;
+    }
+}

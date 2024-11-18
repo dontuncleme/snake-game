@@ -1,0 +1,29 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`getNewSnakeHeadPosition > should move the snake's head in the correct direction 1`] = `
+{
+  "x": 5,
+  "y": 4,
+}
+`;
+
+exports[`getNewSnakeHeadPosition > should move the snake's head in the correct direction 2`] = `
+{
+  "x": 5,
+  "y": 6,
+}
+`;
+
+exports[`getNewSnakeHeadPosition > should move the snake's head in the correct direction 3`] = `
+{
+  "x": 4,
+  "y": 5,
+}
+`;
+
+exports[`getNewSnakeHeadPosition > should move the snake's head in the correct direction 4`] = `
+{
+  "x": 6,
+  "y": 5,
+}
+`;
